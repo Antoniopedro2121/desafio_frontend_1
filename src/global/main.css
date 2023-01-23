@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+form {
+  width: 55%;
+  margin: 0.5rem;
+}
+form input[type=number]::-webkit-outer-spin-button,
+form input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+form input[type=number] {
+  border: 1px solid gray;
+  outline: 0;
+  width: 100%;
+  padding: 0.5rem;
+}
+form input:focus {
+  border: 1px solid rgb(150, 220, 230);
+}
+form label {
+  color: gray;
+}
+
+main {
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid rgb(150, 220, 230);
+}
+
+div {
+  display: flex;
+  margin: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: rgb(15, 183, 209);
+}
+
+ul {
+  width: 30%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  width: 100%;
+}
+li p {
+  padding: 0.5rem;
+}
+
+.resposta {
+  color: rgb(150, 220, 230);
+}
+.resposta span {
+  color: rgb(15, 183, 209);
+}/*# sourceMappingURL=main.css.map */
